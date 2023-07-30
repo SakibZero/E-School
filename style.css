@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto&family=Rubik:wght@700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.head-area {
+    background: #F0FFF0;
+    padding: 35px 0 72px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-2 {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-right: -50px;
+    align-items: center;
+}
+
+.menu ul li {
+    margin-right: 50px;
+}
+
+.logo h1 {
+    color: #56548C;
+    font-family: Rubik;
+    font-size: 24.857px;
+    /* font-style: normal; */
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 10px;
+}
+
+
+
+.menu li a {
+    color: #000;
+    /* font-family: Poppins; */
+    font-size: 16px;
+    /* font-style: normal; */
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menu ul .sign-link a {
+    border-radius: 33px;
+    background: #21B573;
+    padding: 12px 28px;
+    display: inline-block;
+    color: #FFF;
+    font-family: Roboto;
+}
+
+.hero-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-img img {
+    width: 550px;
+}
+
+.hero-img {
+    text-align: right;
+}
+
+.hero-text {
+    width: 530px;
+}
+
+.hero-text p:first-child {
+    color: #FD511A;
+    /* font-family: Poppins; */
+    font-size: 16px;
+    /* font-style: normal; */
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero-text h1 {
+    color: #000;
+    /* font-family: Poppins; */
+    font-size: 48px;
+    /* font-style: normal; */
+    font-weight: 700;
+    line-height: 70px; /* 145.833% */
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.hero-text h1 span {
+    color: #21B573;
+    /* font-family: Poppins; */
+    font-size: 48px;
+    /* font-style: normal; */
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.hero-text p span {
+    color: #6C6B6B;
+    /* font-family: Poppins; */
+    font-size: 16px;
+    /* font-style: normal; */
+    font-weight: 400;
+    line-height: 36px; /* 225% */
+    /* margin: 20px 0 15px 0; */
+}
+
+.hero-area button {
+    border-radius: 33px;
+    border: 1px solid #000;
+    background: #21B573;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 12px 36px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    /* font-style: normal; */
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 15px;
+}
+
+
+
+.box-img-1 {
+    height: 85px;
+    width: 66px;
+    margin-bottom: 22px;
+}
+
+.box-img-2 {
+    height: 83px;
+    width: 80px;
+    margin-bottom: 26px;
+}
+
+.box-img-3 {
+    height: 80px;
+    width: 75px;
+    margin-bottom: 29px;
+}
+
+.box-img-4 {
+    height: 76px;
+    width: 68px;
+    margin-bottom: 26px;
+}
+.all-box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 45px;
+    margin-bottom: 100px;
+}
+
+.all-box h2 {
+    color: #413960;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.all-box p {
+    color: #585859;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.all-box .box-out {
+    width: 25%;
+    padding: 0 10px 0 10px;
+    height: 270px;
+}
+
+.all-box .box-out:first-child {
+    padding-left: 0;
+}
+
+.all-box .box-out:last-child {
+    padding-right: 0;
+}
+
+
+
+.all-box .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 270px;
+    width: 100%;
+    border-radius: 10px;
+    background: #F8FFFB;
+}
+
+.all-box .box:hover {
+    background: #FFF;
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+}
+
+.all-box .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.courses .all-course-box  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses h1 {
+    color: #413960;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+.course-box {
+    width: 370px;
+    height: 483px;
+    border-radius: 18px;
+    background: #FFF;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.10);
+}
+
+.course-box img {
+    width: 331px;
+    height: 234px;
+    border-radius: 11px;
+    padding: 20px;
+}
+
+.course-box .content {
+    padding: 0 25px 25px 25px;
+}
+
+.course-box h2 {
+    color: #413960;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.course-box p {
+    color: #585859;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.course-box button {
+    border-radius: 33px;
+    background: #21B573;
+    padding: 8px 28px;
+    border: none;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 20px 0 35px 0;
+}
+.course-box .details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.details p {
+    display: flex;
+}
+
+.details svg {
+    margin-right: 5px;
+}
+
+.review-area {
+    margin: 80px 0 105px 0;
+    text-align: center;
+}
+
+.review-area h1 {
+    color: #000;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 65px;
+}
+
+.review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.review img {
+    height: 120px;
+    width: 120px;
+    margin-right: 50px;
+}
+
+.review p {
+    width: 580px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    text-align: justify;
+}
+
+.footer {
+    background: #282531;
+    color: #FFFFFF;
+    padding: 55px 0 27px 0;
+}
+
+.footer .container-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .para {
+    width:  370px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
+.footer .content {
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+}
+
+.footer .content span {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.footer p {
+    color: #CDCDCD;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    text-align: center;
+    margin-top: 75px;
+}
